@@ -1,0 +1,10 @@
+node_modules/
+demo/
+dist/
+.nuxt/
+
+*.log
+*.log.*
+.DS_Store
+.idea/
+package-lock.json
