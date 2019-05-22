@@ -2,8 +2,10 @@
   "name": "xibangtech.com",
   "version": "1.0.0",
   "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
-    "dev": "nuxt"
+    "precommit": "npm run lint"
   },
   "config": {
     "nuxt": {
