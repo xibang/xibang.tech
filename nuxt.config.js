@@ -8,9 +8,13 @@ module.exports = {
       { hid: 'description', name: 'description', content: '南京西邦智能科技有限公司官方网站。' }
     ]
   },
+  css: ['uikit/dist/css/uikit.css'],
   env: {
     NODE_ENV: process.env.NODE_ENV || 'development'
   },
+  plugins: [
+    { src: '~/plugins/uikit.js', ssr: false }
+  ],
   build: {
     extractCSS: true,
     extend(config, { isDev }) {

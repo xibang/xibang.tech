@@ -20,7 +20,8 @@
   "author": "willin <willin@willin.org>",
   "license": "Apache-2.0",
   "dependencies": {
-    "nuxt": "^2.6.1"
+    "nuxt": "^2.6.1",
+    "uikit": "^3.1.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
