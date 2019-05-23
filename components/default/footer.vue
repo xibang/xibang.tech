@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import OffCanvas from './offcanvas';
+import OffCanvas from '../nav/offcanvas';
 
 export default {
   components: {

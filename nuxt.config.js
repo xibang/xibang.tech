@@ -6,6 +6,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1' },
       { hid: 'keywords', name: 'keywords', content: '西邦,Willin,智能科技,微信小程序,抽奖活动,微信吸粉,技术咨询,系统研发' },
       { hid: 'description', name: 'description', content: '南京西邦智能科技有限公司官方网站。' }
+    ],
+    link: [
+      { rel: 'shortcut icon', href: '/favicon.ico' }
     ]
   },
   css: ['uikit/dist/css/uikit.css'],

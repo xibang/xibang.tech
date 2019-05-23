@@ -7,29 +7,52 @@ export default [
   {
     name: '服务',
     to: '/service',
-    icon: 'heart'
+    icon: 'heart',
+    children: [
+      {
+        name: '业务范围',
+        to: '/service'
+      },
+      {
+        name: '项目流程',
+        to: '/service/flow'
+      },
+      {
+        name: '项目案例',
+        to: '/project'
+      }
+    ]
   },
   {
     name: '产品',
-    to: '#',
+    to: '/product',
     icon: 'happy',
     children: [
-
+      {
+        name: 'Github 中国排行榜',
+        to: '/product/github.kaiyuan.fund'
+      }
     ]
   },
   {
     name: '解决方案',
-    to: '#',
+    to: '/sulution',
     icon: 'bolt',
     children: [
-
+      {
+        name: '物联网管理平台',
+        to: '/solution/iot-platform'
+      },
+      {
+        name: '反作弊抽奖、投票活动',
+        to: '/solution/lottery-vote'
+      }
     ]
   },
   {
     name: '联系',
-    to: '#contact',
-    icon: 'receiver',
-    type: 'scroll'
+    to: '/contact',
+    icon: 'receiver'
   },
   {
     name: 'Github',
