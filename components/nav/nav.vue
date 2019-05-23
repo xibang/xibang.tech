@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import nav from '~/assets/nav';
+import nav from '~/assets/js/nav';
 
 export default {
   data: () => ({

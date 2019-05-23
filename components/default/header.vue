@@ -1,6 +1,6 @@
 <template>
   <header uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky;">
-    <nav class="uk-navbar-container uk-margin" uk-navbar>
+    <nav class="uk-navbar-container" uk-navbar>
       <div class="uk-navbar-left">
         <div class="uk-hidden@m">
           <a href="#offcanvas-slide" class="uk-navbar-toggle" uk-toggle uk-navbar-toggle-icon />

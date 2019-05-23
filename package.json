@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "nuxt",
+    "fetch": "node bin/fetch",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "precommit": "npm run lint"
@@ -22,6 +23,7 @@
   "author": "willin <willin@willin.org>",
   "license": "Apache-2.0",
   "dependencies": {
+    "@nuxtjs/axios": "^5.5.0",
     "nuxt": "^2.6.1",
     "uikit": "^3.1.5"
   },

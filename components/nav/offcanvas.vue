@@ -1,5 +1,5 @@
 <template>
-  <div id="offcanvas-slide" uk-offcanvas>
+  <div id="offcanvas-slide" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar">
       <ul class="uk-nav uk-nav-default">
         <li>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import nav from '~/assets/nav';
+import nav from '~/assets/js/nav';
 
 export default {
   data: () => ({

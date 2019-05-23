@@ -11,6 +11,7 @@ before_script:
   - git config user.name "Travis-CI"
   - git config user.email "willin@willin.org"
 script:
+  - npm run fetch
   - npm run generate
   - cd dist
   - cp 404.html index.html
