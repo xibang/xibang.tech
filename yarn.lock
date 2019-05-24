@@ -831,7 +831,7 @@
     url-loader "^1.1.2"
     vue-loader "^15.7.0"
     webpack "^4.29.6"
-    webpack-bundle-analyzer "^3.1.0"
+    webpack-bundle-analyzer "^3.2.0"
     webpack-dev-middleware "^3.6.2"
     webpack-hot-middleware "^2.24.3"
     webpack-node-externals "^1.7.2"
@@ -6372,7 +6372,7 @@ watchpack@^1.5.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-webpack-bundle-analyzer@^3.1.0:
+webpack-bundle-analyzer@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.2.0.tgz#0630d298e88511d036d7c823705d7b852593d5c4"
   dependencies:
