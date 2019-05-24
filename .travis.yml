@@ -14,7 +14,6 @@ script:
   - npm run fetch
   - npm run generate
   - cd dist
-  - cp 404.html index.html
   - git init
   - git add .
   - git commit -m "[skip ci] Travis Auto Deployed"

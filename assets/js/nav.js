@@ -2,7 +2,21 @@ export default [
   {
     name: '关于',
     to: '/about',
-    icon: 'world'
+    icon: 'world',
+    children: [
+      {
+        name: '公司介绍',
+        to: '/about'
+      },
+      {
+        name: '团队成员',
+        to: '/about/team'
+      },
+      {
+        name: '开源项目',
+        to: '/opensource'
+      }
+    ]
   },
   {
     name: '服务',
