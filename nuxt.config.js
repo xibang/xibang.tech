@@ -20,6 +20,7 @@ module.exports = {
   ],
   build: {
     extractCSS: true,
+    // ssr: false,
     extend(config, { isDev }) {
       if (isDev) {
         // eslint-disable-next-line no-param-reassign
@@ -28,9 +29,6 @@ module.exports = {
     }
   },
   generate: {
-    fallback: true,
-    minify: {
-      collapseWhitespace: false
-    }
+    fallback: true
   }
 };
