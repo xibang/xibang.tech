@@ -75,7 +75,15 @@
 
           <div>
             <div class="uk-card uk-card-default uk-card-body">
-              &nbsp;
+              <h4>Aki Wu</h4>
+              <p>
+                QQ：
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=276578497&amp;site=qq&amp;menu=yes">
+                  <img border="0" src="http://wpa.qq.com/pa?p=2:276578497:41" alt="点击这里给我发消息" title="点击这里给我发消息">
+                </a>
+              </p>
+              <p>微信： wx276578497</p>
+              <p>邮箱： wuminzhe@gmail.com</p>
             </div>
           </div>
         </div>

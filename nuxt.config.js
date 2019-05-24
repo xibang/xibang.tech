@@ -28,6 +28,9 @@ module.exports = {
     }
   },
   generate: {
-    fallback: true
+    fallback: true,
+    minify: {
+      collapseWhitespace: false
+    }
   }
 };
