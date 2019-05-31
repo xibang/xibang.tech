@@ -11,12 +11,13 @@ module.exports = {
       { rel: 'shortcut icon', href: '/favicon.ico' }
     ]
   },
-  css: ['uikit/dist/css/uikit.css'],
+  css: [
+    'minireset.css'
+  ],
   env: {
     NODE_ENV: process.env.NODE_ENV || 'development'
   },
   plugins: [
-    { src: '~/plugins/uikit.js', ssr: false }
   ],
   build: {
     extractCSS: true,

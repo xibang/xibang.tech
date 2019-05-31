@@ -49,19 +49,13 @@
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next" />
       </div>
     </div>
-    <XState />
-    <XPartner />
   </main>
 </template>
 
 <script>
-import XState from '~/components/widgets/stat';
-import XPartner from '~/components/widgets/partner';
 
 export default {
   components: {
-    XState,
-    XPartner
   }
 };
 </script>
