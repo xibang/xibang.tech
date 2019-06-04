@@ -1,21 +1,6 @@
 <template>
   <main id="contact">
-    <div class="uk-height-large uk-background-cover uk-flex uk-background-fixed" uk-parallax="bgy: -250" :style="`background-image: url(${bgUrl});`">
-      <h2 class="uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="target: #contact; blur: 0,10;">
-        联系我们
-      </h2>
-    </div>
-
-    <div class="uk-card uk-card-body">
-      <ul class="uk-breadcrumb">
-        <li>
-          <NuxtLink to="/">
-            主页
-          </NuxtLink>
-        </li>
-        <li><span>联系我们</span></li>
-      </ul>
-    </div>
+    <XTitle title="联系我们" desc="Contact us" :img="bgUrl" />
 
     <div class="uk-section uk-section-primary uk-preserve-color">
       <div class="uk-container">
@@ -129,8 +114,12 @@
 import bgUrl from '~/assets/images/contact.jpg';
 import qrUrl from '~/assets/images/qr-mp.jpg';
 import alipayUrl from '~/assets/images/alipay.png';
+import XTitle from '~/components/partial/title';
 
 export default {
+  components: {
+    XTitle
+  },
   data: () => ({
     bgUrl,
     qrUrl,

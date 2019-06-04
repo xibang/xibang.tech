@@ -50,7 +50,7 @@ export default [
   },
   {
     name: '解决方案',
-    to: '/sulution',
+    to: '/solution',
     icon: 'bolt',
     children: [
       {

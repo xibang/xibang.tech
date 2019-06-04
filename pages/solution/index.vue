@@ -1,6 +1,6 @@
 <template>
   <main>
-    <XTitle title="关于西邦" desc="About XiBang" />
+    <XTitle title="解决方案" desc="XiBang Solutions" />
   </main>
 </template>
 
