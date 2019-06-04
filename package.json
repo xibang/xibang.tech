@@ -24,10 +24,14 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@nuxtjs/axios": "^5.5.0",
+    "@nuxtjs/svg-sprite": "^0.2.1",
     "minireset.css": "^0.0.5",
-    "nuxt": "^2.7.1"
+    "nuxt": "^2.7.1",
+    "purecss": "^1.0.0",
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-willin": "^1.0.2",

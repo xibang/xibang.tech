@@ -81,8 +81,8 @@ header {
     }
   }
   nav {
-    max-width: 1180px
     height: 80px
+    padding: 0 10px
     margin: 0px auto
     display: -webkit-flex
     display: flex
