@@ -39,10 +39,11 @@ export default {
   text-align: center;
   h2 {
     padding-top: 120px;
-    color: #000;
     font-size: 3em;
     letter-spacing: 0.25em;
-    text-shadow: 0 0 1px rgba(255,255,255,1)
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
   }
   p {
     color: #333;

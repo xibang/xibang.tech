@@ -28,7 +28,8 @@
     "minireset.css": "^0.0.5",
     "nuxt": "^2.7.1",
     "purecss": "^1.0.0",
-    "swiper": "^4.5.0"
+    "swiper": "^4.5.0",
+    "vue-pure-lightbox": "^3.1.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.2",

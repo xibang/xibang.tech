@@ -73,7 +73,7 @@ export default {
 
 <style lang="stylus">
 header {
-  z-index: 9999
+  z-index: 999
   position: fixed
   background: rgba(0,0,0,.5)
   width: 100%

@@ -14,8 +14,10 @@ module.exports = {
   css: [
     'minireset.css',
     'purecss/build/pure.css',
+    'purecss/build/grids-responsive.css',
     '~/assets/style.styl',
-    'swiper/dist/css/swiper.css'
+    'swiper/dist/css/swiper.css',
+    'vue-pure-lightbox/dist/VuePureLightbox.css'
   ],
   env: {
     NODE_ENV: process.env.NODE_ENV || 'development'

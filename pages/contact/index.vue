@@ -1,109 +1,81 @@
 <template>
   <main id="contact">
     <XTitle title="联系我们" desc="Contact us" :img="bgUrl" />
-
-    <div class="uk-section uk-section-primary uk-preserve-color">
-      <div class="uk-container">
-        <div class="uk-panel uk-light uk-margin-medium">
+    <div class="container">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2 text-right">
           <h3>联系方式</h3>
+          <p>
+            <svg-icon name="solid/phone-volume" />
+            电话： 025-58177588
+          </p>
+          <p>
+            <svg-icon name="solid/envelope" />邮箱： willin@xibang.tech
+          </p>
+          <p>地址：南京麒麟高新技术产业开发区天骄路100号华清园7栋2楼</p>
+          <p>微信公众号： 西邦 （xibangtech）</p>
+          <Lightbox :thumbnail="qrUrl" :images="[qrUrl]" />
         </div>
-
-        <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body" uk-lightbox>
-              <p>
-                微信公众号：
-                <a :href="qrUrl" data-alt="西邦（xibangtech）" class="uk-link-heading">
-                  西邦 <span uk-icon="icon: image" />
-                </a>
-              </p>
-            </div>
-          </div>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <p>电话： 025-58177588</p>
-            </div>
-          </div>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <p>邮箱： willin@xibang.tech</p>
-            </div>
-          </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+          <img class="map" src="~/assets/images/map.png">
         </div>
+      </div>
+    </div>
 
-        <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <p>地址：南京麒麟高新技术产业开发区天骄路100号华清园7栋2楼</p>
-            </div>
+
+    <div class="contact" :style="`background-image: url(${statBgUrl});`">
+      <div class="container">
+        <h3>联系客服</h3>
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-3">
+            <h4>Willin</h4>
+            <p>
+              QQ：
+              <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2539929&amp;site=qq&amp;menu=yes">
+                <img border="0" src="http://wpa.qq.com/pa?p=2:2539929:41" alt="点击这里给我发消息" title="点击这里给我发消息">
+              </a>
+            </p>
+            <p>微信：willinx</p>
+            <p>邮箱：willin@xibang.tech</p>
           </div>
-        </div>
-
-        <div class="uk-panel uk-light uk-margin-medium">
-          <h3>客服</h3>
-        </div>
-
-        <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <h4>Willin</h4>
-              <p>
-                QQ：
-                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2539929&amp;site=qq&amp;menu=yes">
-                  <img border="0" src="http://wpa.qq.com/pa?p=2:2539929:41" alt="点击这里给我发消息" title="点击这里给我发消息">
-                </a>
-              </p>
-              <p>微信：willinx</p>
-              <p>邮箱：willin@xibang.tech</p>
-            </div>
+          <div class="pure-u-1 pure-u-md-1-3">
+            <h4>Aki Wu</h4>
+            <p>
+              QQ：
+              <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=276578497&amp;site=qq&amp;menu=yes">
+                <img border="0" src="http://wpa.qq.com/pa?p=2:276578497:41" alt="点击这里给我发消息" title="点击这里给我发消息">
+              </a>
+            </p>
+            <p>微信： wx276578497</p>
+            <p>邮箱： wuminzhe@gmail.com</p>
           </div>
-
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <h4>Aki Wu</h4>
-              <p>
-                QQ：
-                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=276578497&amp;site=qq&amp;menu=yes">
-                  <img border="0" src="http://wpa.qq.com/pa?p=2:276578497:41" alt="点击这里给我发消息" title="点击这里给我发消息">
-                </a>
-              </p>
-              <p>微信： wx276578497</p>
-              <p>邮箱： wuminzhe@gmail.com</p>
-            </div>
+          <div class="pure-u-1 pure-u-md-1-3">
+            <h4>Puml</h4>
+            <p>
+              QQ：
+              <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=809360004&amp;site=qq&amp;menu=yes">
+                <img border="0" src="http://wpa.qq.com/pa?p=2:809360004:41" alt="点击这里给我发消息" title="点击这里给我发消息">
+              </a>
+            </p>
+            <p>微信： pml1988</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="uk-section uk-section-muted">
-      <div class="uk-container">
-        <div class="uk-panel uk-margin-medium">
-          <h3>支付信息</h3>
-          <span class="uk-label uk-label-danger uk-padding-small">
-            <span uk-icon="icon: warning" />
-            注意支付安全，确认支付金额及备注信息。
-          </span>
+    <div class="text-center">
+      <h3>支付信息</h3>
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2">
+          <h4>对公打款</h4>
+          <p>开户银行：南京银行南京城北支行</p>
+          <p>名称：南京西邦智能科技有限公司</p>
+          <p>账号：0141 2400 0000 0713</p>
         </div>
-        <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <h4>对公打款</h4>
-              <p>开户银行：南京银行南京城北支行</p>
-              <p>名称：南京西邦智能科技有限公司</p>
-              <p>账号：0141 2400 0000 0713</p>
-            </div>
-          </div>
-          <div>
-            <div class="uk-card uk-card-default uk-card-body">
-              <h4>支付宝</h4>
-              <p>账号：willin@xibang.tech</p>
-              <div uk-lightbox>
-                <a :href="alipayUrl" data-alt="西邦（xibangtech）" class="uk-link-heading">
-                  扫码支付 <span uk-icon="icon: image" />
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+          <h4>支付宝</h4>
+          <p>账号：willin@xibang.tech</p>
+          <Lightbox :thumbnail="alipayUrl" :images="[alipayUrl]" />
         </div>
       </div>
     </div>
@@ -111,17 +83,22 @@
 </template>
 
 <script>
+import Lightbox from 'vue-pure-lightbox';
+
 import bgUrl from '~/assets/images/contact.jpg';
+import statBgUrl from '~/assets/images/stat.png';
 import qrUrl from '~/assets/images/qr-mp.jpg';
 import alipayUrl from '~/assets/images/alipay.png';
 import XTitle from '~/components/partial/title';
 
 export default {
   components: {
+    Lightbox,
     XTitle
   },
   data: () => ({
     bgUrl,
+    statBgUrl,
     qrUrl,
     alipayUrl
   })
@@ -130,9 +107,43 @@ export default {
 
 <style lang="stylus">
 #contact
-  h2
-    letter-spacing: 0.25em
-    -webkit-text-stroke: 1px #000
-    -webkit-text-fill-color: transparent
+  .contact
+    background-color: #4b5d73
+    background-size: cover
+    color: #ccc
+  h3
+    margin-top: 0.5em
+    color: #FECF39
     font-weight: bolder
+    font-size: 2em
+  h4
+    font-size: 1.5em
+    color: #f60
+  p
+    margin: 0.5em
+    svg
+      width: 1em
+      height: 1em
+      margin: 0 0.25em
+      vertical-align: middle
+  .map
+    border: 3px solid rgba(0,0,0,.25)
+    border-radius: 1em
+  .pure-g > div
+    padding: 2em
+    .lightbox__thumbnail img
+      max-width:50%
+      margin: 1em 0
+      display: inline
+
+@media only screen and (max-width: 768px){
+  #contact {
+    .pure-g .text-right {
+      text-align: left
+    }
+    .pure-g > div .lightbox__thumbnail img {
+      max-width: 100%
+    }
+  }
+}
 </style>
