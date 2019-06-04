@@ -49,6 +49,7 @@ footer
     font-size: 0.8em
     padding: 0.5em
     text-align: right
+
 @media only screen and (max-width: 768px) {
   .hide-xs {
     display: none

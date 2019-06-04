@@ -2,21 +2,21 @@
   <div id="stat" :style="`background-image: url(${statBgUrl});`">
     <h2>为什么选择我们？</h2>
     <div class="pure-g border">
-      <div class="pure-u-1-3">
+      <div class="pure-u-1 pure-u-sm-1-3">
         <h3>
           <svg-icon name="regular/clock" />
           高效
         </h3>
         <p>团队内部采用的是 Scrum 敏捷模型进行快速迭代。</p>
       </div>
-      <div class="pure-u-1-3">
+      <div class="pure-u-1 pure-u-sm-1-3">
         <h3>
           <svg-icon name="brands/git-alt" />
           可控
         </h3>
         <p>使用 Git 进行版本管理，并定时汇报开发进度。</p>
       </div>
-      <div class="pure-u-1-3">
+      <div class="pure-u-1 pure-u-sm-1-3">
         <h3>
           <svg-icon name="solid/fingerprint" />
           安全
