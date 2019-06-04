@@ -7,7 +7,7 @@
           <span>南京西邦智能科技有限公司</span>
         </NuxtLink>
       </h1>
-      <ul ref="nav">
+      <ul ref="nav" @click.stop="hide">
         <li v-for="item in nav" :key="item.name">
           <a v-if="item.type==='outer'" :href="item.to" target="_blank">
             <span class="uk-icon uk-margin-small-right" :uk-icon="`icon: ${item.icon}`" />
@@ -19,7 +19,7 @@
           </NuxtLink>
         </li>
       </ul>
-      <div class="nav__icon" @click.stop="toggleActive">
+      <div :class="{nav__icon: true, active}" @click.stop="toggleActive">
         <span />
         <span />
         <span />
@@ -49,6 +49,12 @@ export default {
       } else {
         const height = window.innerHeight - 80;
         this.$refs.nav.style = `display: none;height: ${height}px;`;
+      }
+    },
+    hide() {
+      if (window.innerWidth < 768) {
+        this.active = false;
+        this.$refs.nav.style.display = 'none';
       }
     },
     toggleActive() {
