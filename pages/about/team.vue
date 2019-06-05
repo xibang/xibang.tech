@@ -1,11 +1,23 @@
 <template>
   <main id="about">
     <XTitle title="关于西邦" desc="About XiBang" img="/images/header/about.jpg" />
-    <div class="text-center container">
+    <div id="team" class="text-center container">
       <div class="content">
-        <p>
-          南京西邦智能科技有限公司成立于2019年4月17日，是一家专注于智能科技的互联网公司。我们立志于为个人及企业提供便捷的一站式软件系统服务及解决方案。
-        </p>
+        <h3>创始人</h3>
+        <h4>Willin</h4>
+        <p>资深架构师，物联网领域专家</p>
+        <p>阿里云MVP，Node.js基金会成员</p>
+        <h3>核心团队</h3>
+        <h4>Puml</h4>
+        <p>高级安卓架构师，互联网金融行业专家</p>
+        <h4>Aki Wu</h4>
+        <p>资深架构师，区块链领域专家</p>
+        <h4>CC</h4>
+        <p>高级设计师</p>
+
+        <h3>开发团队</h3>
+        <h4>xuanmos</h4>
+        <p>Web前端开发</p>
       </div>
       <XAside />
     </div>
@@ -30,3 +42,8 @@ export default {
   }
 };
 </script>
+
+<style lang="stylus">
+#team .content
+  text-align: left
+</style>

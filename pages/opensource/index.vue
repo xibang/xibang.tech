@@ -43,7 +43,14 @@
           </tbody>
         </table>
         <p>
-          总计 {{ github.repositories }} 个项目，详情请访问GitHub： <a href="https://github.com/xibang" target="_blank">@xibang</a>
+          总计 {{ github.repositories }} 个项目，详情请访问GitHub： <a href="https://github.com/xibang" target="_blank">@xibang</a>。
+        </p>
+        <h4>捐赠支持</h4>
+        <p>
+          如果我们的开源项目对您有益，您开源选择成为我们的
+          <NuxtLink to="/sponsers">
+            赞助者
+          </NuxtLink>。
         </p>
       </div>
       <XAside />
