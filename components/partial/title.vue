@@ -34,26 +34,31 @@ export default {
   height: 38.2vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 100%;
+  background-position: top;
   position:relative;
   text-align: center;
   h2 {
     padding-top: 120px;
     font-size: 3em;
     letter-spacing: 0.25em;
+    color: rgba(255,255,255,.5);
     -webkit-text-stroke: 1px #000;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(255,255,255,.5);
     font-weight: bolder;
   }
   p {
-    color: #333;
-    text-shadow: 0 0 1px rgba(255,255,255,.5)
+    color: #888;
+    font-weight: bolder;
+    text-shadow: 0 0 1px #000
   }
 }
+
 @media only screen and (max-width: 768px) {
- .page_header {
-  background-size: cover;
-  background-position: center;
- }
+  .page_header {
+    h2 {
+      font-size: 2em;
+    }
+  }
 }
 </style>

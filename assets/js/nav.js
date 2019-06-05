@@ -40,28 +40,32 @@ export default [
   {
     name: '产品',
     to: '/product',
-    icon: 'happy',
-    children: [
-      {
-        name: 'Github 中国排行榜',
-        to: '/product/github.kaiyuan.fund'
-      }
-    ]
+    // children: [
+    //   {
+    //     name: 'Github 中国排行榜',
+    //     to: '/product/github.kaiyuan.fund'
+    //   }
+    // ],
+    icon: 'happy'
   },
   {
     name: '解决方案',
     to: '/solution',
-    icon: 'bolt',
     children: [
       {
-        name: '物联网管理平台',
+        name: '微信解决方案',
+        to: '/solution/wechat'
+      },
+      {
+        name: '物联网解决方案',
         to: '/solution/iot-platform'
       },
       {
-        name: '反作弊抽奖、投票活动',
-        to: '/solution/lottery-vote'
+        name: '区块链解决方案',
+        to: '/solution/blockchain'
       }
-    ]
+    ],
+    icon: 'bolt'
   },
   {
     name: '联系',
