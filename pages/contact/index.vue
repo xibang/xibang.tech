@@ -101,7 +101,16 @@ export default {
     statBgUrl,
     qrUrl,
     alipayUrl
-  })
+  }),
+  head() {
+    return {
+      title: '联系我们 | 西邦智能科技',
+      meta: [
+        { hid: 'description', name: 'description', content: '南京西邦智能科技有限公司联系方式。' },
+        { hid: 'keywords', name: 'keywords', content: '联系方式,西邦' }
+      ]
+    };
+  }
 };
 </script>
 

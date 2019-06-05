@@ -1,6 +1,11 @@
 <template>
   <main>
-    <XTitle title="产品" desc="XiBang Products" />
+    <XTitle title="自主产品" desc="XiBang Products" />
+    <div class="pure-g text-center container">
+      <div class="pure-u-1">
+        正在筹备中，敬请期待。
+      </div>
+    </div>
   </main>
 </template>
 
@@ -10,6 +15,15 @@ import XTitle from '~/components/partial/title';
 export default {
   components: {
     XTitle
+  },
+  head() {
+    return {
+      title: '自主产品 | 西邦智能科技',
+      meta: [
+        { hid: 'description', name: 'description', content: '西邦智能科技旗下自主研发及运营的产品。' },
+        { hid: 'keywords', name: 'keywords', content: '产品,自主,西邦' }
+      ]
+    };
   }
 };
 </script>

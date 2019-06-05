@@ -115,10 +115,16 @@ export default {
 
   h2,h3,p
     padding: 5px
+  p
+    color: #888
+    font-weight: bolder
+    text-shadow: 0 0 1px #000
 
   h2
     font-size: 2.5em
-    text-shadow: 0 0 1px #fff
+    color: rgba(255,255,255,.5);
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: rgba(255,255,255,.5);
 
   a,a:link, a:visited
     color: #fff

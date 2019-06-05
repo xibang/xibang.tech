@@ -4,6 +4,24 @@
     <div class="pure-g container text-center">
       <div class="pure-u-1 pure-u-md-1-3">
         <div class="box">
+          <h3>微信</h3>
+          <p>完整的微信公众号、小程序解决方案，包括活动、吸粉、支付等功能模块。</p>
+          <NuxtLink to="/solution/wechat" class="pure-button button-primary">
+            方案详情
+          </NuxtLink>
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3">
+        <div class="box">
+          <h3>物联网</h3>
+          <p>物联网智能家居、无人机管理平台等行业级解决方案及技术咨询。</p>
+          <NuxtLink to="/solution/iot-platform" class="pure-button button-primary">
+            方案详情
+          </NuxtLink>
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-3">
+        <div class="box">
           <h3>区块链</h3>
           <p>全方位、全生命周期的区块链企业应用解决方案。</p>
           <NuxtLink to="/solution/blockchain" class="pure-button button-primary">

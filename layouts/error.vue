@@ -31,7 +31,12 @@ export default {
       default: () => ({})
     }
   },
-  layout: 'default'
+  layout: 'default',
+  head() {
+    return {
+      title: '出错啦 | 西邦智能科技'
+    };
+  }
 };
 </script>
 
