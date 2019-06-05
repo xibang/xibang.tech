@@ -1,6 +1,6 @@
 <template>
   <main id="solution">
-    <XTitle title="行业解决方案" desc="XiBang Elite Solutions" />
+    <XTitle title="行业解决方案" desc="XiBang Elite Solutions" img="/images/header/solution.jpg" />
     <div class="pure-g container text-center">
       <div class="pure-u-1 pure-u-md-1-3">
         <div class="box">

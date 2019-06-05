@@ -2,20 +2,24 @@ export default [
   {
     name: '关于',
     to: '/about',
-    // children: [
-    //   {
-    //     name: '公司介绍',
-    //     to: '/about'
-    //   },
-    //   {
-    //     name: '团队成员',
-    //     to: '/about/team'
-    //   },
-    //   {
-    //     name: '开源项目',
-    //     to: '/opensource'
-    //   }
-    // ],
+    children: [
+      {
+        name: '公司介绍',
+        to: '/about'
+      },
+      {
+        name: '团队成员',
+        to: '/about/team'
+      },
+      {
+        name: '开源项目',
+        to: '/opensource'
+      },
+      {
+        name: '赞助商',
+        to: '/sponsers'
+      }
+    ],
     icon: 'world'
   },
   // {
