@@ -1,6 +1,6 @@
 <template>
   <main>
-    <XTitle title="自主产品" desc="XiBang Products" img="/images/header/product.jpg" />
+    <XTitle title="自主产品" desc="XiBang Products" />
     <div class="pure-g text-center container">
       <div class="pure-u-1">
         正在筹备中，敬请期待。
@@ -18,10 +18,10 @@ export default {
   },
   head() {
     return {
-      title: '自主产品 | 西邦智能科技',
+      title: '开源捐 | 西邦智能科技',
       meta: [
-        { hid: 'description', name: 'description', content: '西邦智能科技旗下自主研发及运营的产品。' },
-        { hid: 'keywords', name: 'keywords', content: '产品,自主,西邦' }
+        { hid: 'description', name: 'description', content: '开源捐 Kaiyuan.fund 是西邦智能科技旗下自主研发及运营的产品。' },
+        { hid: 'keywords', name: 'keywords', content: '产品,自主,西邦,kaiyuan.fund,开源,kaiyuan' }
       ]
     };
   }

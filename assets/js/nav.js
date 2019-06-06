@@ -41,17 +41,21 @@ export default [
   //     }
   //   ]
   // },
-  // {
-  //   name: '产品',
-  //   to: '/product',
-  //   // children: [
-  //   //   {
-  //   //     name: 'Github 中国排行榜',
-  //   //     to: '/product/github.kaiyuan.fund'
-  //   //   }
-  //   // ],
-  //   icon: 'happy'
-  // },
+  {
+    name: '产品',
+    to: '/product',
+    children: [
+      {
+        name: '开源捐',
+        to: '/product/kaiyuan-fund'
+      },
+      {
+        name: 'Github 中国排行榜',
+        to: '/product/github-kaiyuan-fund'
+      }
+    ],
+    icon: 'happy'
+  },
   {
     name: '解决方案',
     to: '/solution',
