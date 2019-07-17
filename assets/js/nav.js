@@ -45,13 +45,19 @@ export default [
     name: '产品',
     to: '/product',
     children: [
+      // {
+      //   name: '开源捐',
+      //   to: '/product/kaiyuan-fund'
+      // },
       {
-        name: '开源捐',
-        to: '/product/kaiyuan-fund'
+        name: '智能二维码活码',
+        to: 'https://qr.xibang.tech',
+        type: 'outer'
       },
       {
         name: 'Github 中国排行榜',
-        to: '/product/github-kaiyuan-fund'
+        to: 'https://github.kaiyuan.fund',
+        type: 'outer'
       }
     ],
     icon: 'happy'
