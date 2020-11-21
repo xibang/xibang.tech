@@ -20,7 +20,7 @@
         <div class="box">
           <h4>无人机管理平台</h4>
           <p>
-            完整参与设计、开发无人机管理平台、行业应用及获得民航资质的无人机监管系统。
+            完整参与设计、开发无人机管理平台、行业应用及获得民航资质的无人机监管系统——大翼鹰眼和风筝线平台。
           </p>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default {
       title: '物联网解决方案 | 西邦智能科技',
       meta: [
         { hid: 'description', name: 'description', content: '物联网智能家居、无人机管理平台等行业级解决方案及技术咨询。' },
-        { hid: 'keywords', name: 'keywords', content: '物联网,解决方案,iot,智能家居,无人机,西邦' }
+        { hid: 'keywords', name: 'keywords', content: '物联网,解决方案,iot,智能家居,无人机,大翼,风筝线,西邦' }
       ]
     };
   }

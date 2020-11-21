@@ -20,6 +20,15 @@
           </NuxtLink>
         </div>
       </div>
+       <div class="pure-u-1 pure-u-md-1-3">
+        <div class="box">
+          <h3>AR</h3>
+          <p>增强现实 AR 行业级解决方案及技术咨询。</p>
+          <NuxtLink to="/solution/ar" class="pure-button button-primary">
+            方案详情
+          </NuxtLink>
+        </div>
+      </div>
       <div class="pure-u-1 pure-u-md-1-3">
         <div class="box">
           <h3>区块链</h3>
