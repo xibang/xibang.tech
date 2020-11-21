@@ -67,6 +67,10 @@ export default [
     to: '/solution',
     children: [
       {
+        name: 'AR 增强现实',
+        to: '/solution/ar'
+      },
+      {
         name: '微信解决方案',
         to: '/solution/wechat'
       },
