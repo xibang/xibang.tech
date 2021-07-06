@@ -1,7 +1,10 @@
 <template>
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" :style="{backgroundImage: `url(${sliderUrl1})`}">
+      <div
+        class="swiper-slide"
+        :style="{ backgroundImage: `url(${sliderUrl1})` }"
+      >
         <h2>
           南京西邦智能科技有限公司
         </h2>
@@ -12,7 +15,10 @@
           </NuxtLink>
         </p>
       </div>
-      <div class="swiper-slide" :style="{backgroundImage: `url(${sliderUrl2})`}">
+      <div
+        class="swiper-slide"
+        :style="{ backgroundImage: `url(${sliderUrl2})` }"
+      >
         <h2>用心</h2>
         <h3>
           用心设计、用心开发，让产品富有生命力。
@@ -21,12 +27,15 @@
           <NuxtLink to="/contact" class="button-warning pure-button">
             联系我们
           </NuxtLink>
-          <NuxtLink to="/project" class="button-secondary pure-button">
+          <NuxtLink to="/product" class="button-secondary pure-button">
             项目案例
           </NuxtLink>
         </p>
       </div>
-      <div class="swiper-slide" :style="{backgroundImage: `url(${sliderUrl3})`}">
+      <div
+        class="swiper-slide"
+        :style="{ backgroundImage: `url(${sliderUrl3})` }"
+      >
         <h2>
           效率、专业、精准
         </h2>
@@ -44,10 +53,10 @@
 </template>
 
 <script>
-import Swiper from 'swiper';
-import sliderUrl1 from '~/assets/images/slide1.jpg';
-import sliderUrl2 from '~/assets/images/slide2.jpg';
-import sliderUrl3 from '~/assets/images/slide3.jpg';
+import Swiper from "swiper";
+import sliderUrl1 from "~/assets/images/slide1.jpg";
+import sliderUrl2 from "~/assets/images/slide2.jpg";
+import sliderUrl3 from "~/assets/images/slide3.jpg";
 
 export default {
   data: () => ({
@@ -78,16 +87,16 @@ export default {
           delay: 6000,
           disableOnInteraction: false
         },
-        effect: 'flip',
+        effect: "flip",
         grabCursor: true,
         loop: true,
         pagination: {
-          el: '.swiper-pagination',
+          el: ".swiper-pagination",
           clickable: true
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
         }
       });
     }
@@ -135,5 +144,4 @@ export default {
   .swiper-slide
     h2
       font-size: 1.5em
-
 </style>
