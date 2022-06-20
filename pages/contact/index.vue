@@ -12,7 +12,7 @@
           <p>
             <svg-icon name="solid/envelope" />邮箱： willin@xibang.tech
           </p>
-          <p>地址：南京麒麟高新技术产业开发区天骄路100号华清园7栋2楼</p>
+          <p>地址：南京市·江北新区</p>
           <p>微信公众号： 西邦 （xibangtech）</p>
           <Lightbox :thumbnail="qrUrl" :images="[qrUrl]" />
         </div>
