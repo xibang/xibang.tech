@@ -5,7 +5,7 @@
       <div class="bd-callout">
         <h3>微信公众号： 西邦</h3>
         <p>
-          南京市·启迪科技城华清园
+          南京市·江北新区
           <br>
           <NuxtLink to="/contact">
             详情
