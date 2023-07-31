@@ -20,7 +20,7 @@
         </a>,
       </small>
       <small>
-        <a href="http://www.beian.miit.gov.cn" target="_blank">
+        <a href="https://beian.miit.gov.cn/" target="_blank">
           苏ICP备19022432号
         </a>,
       </small>
